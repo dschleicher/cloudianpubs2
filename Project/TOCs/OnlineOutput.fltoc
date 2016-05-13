@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="">
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/A_Introduction Topics/Welcome.htm" />
+  <TocEntry
+    Title="Users &amp; Groups"
+    Link="/Content/Users &amp; Groups/Feature2.htm">
+    <TocEntry
+      Title="Manage Users"
+      Link="/Content/Users &amp; Groups/ManageUsers.htm"></TocEntry>
+    <TocEntry
+      Title="Manage Users (Alt)"
+      Link="/Content/Users &amp; Groups/ManageUsers2.htm" />
+    <TocEntry
+      Title="Add a User"
+      Link="/Content/Users &amp; Groups/AddUser.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Cluster">
+    <TocEntry
+      Title="Cluster Config">
+      <TocEntry
+        Title="Configuration Settings"
+        Link="/Content/Cluster/ConfigurationSettings.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Admin API">
+    <TocEntry
+      Title="User Management">
+      <TocEntry
+        Title="DELETE User"
+        Link="/Content/Admin API/User Management/DeleteUser.htm" />
+      <TocEntry
+        Title="DELETE User’s Profile Data"
+        Link="/Content/Admin API/User Management/DELETEUsersProfileData.htm" />
+      <TocEntry
+        Title="GET User"
+        Link="/Content/Admin API/User Management/GetUser.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Common Status Codes"
+      Link="/Content/Admin API/CommonStatusCodes.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Configuration Files">
+    <TocEntry
+      Title="Configuration Files &amp; Settings"
+      Link="/Content/Configuration Files/ConfigurationFiles.htm" />
+  </TocEntry>
+</CatapultToc>
