@@ -14,4 +14,9 @@
   GenerateWebSafeImages="true"
   WebSafeFileExtension="png"
   MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp"
-  Skin="/Project/Skins/HTML5 - Tripane.flskn"></CatapultTarget>
+  Skin="/Project/Skins/HTML5 - Tripane.flskn">
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Github cloudianpubs2.fldes" />
+  </Destinations>
+</CatapultTarget>
