@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/A_Introduction Topics/Welcome.htm'],s:['0','uplnad'],p:[['0',2],['inssead',10],['type',17]]});
