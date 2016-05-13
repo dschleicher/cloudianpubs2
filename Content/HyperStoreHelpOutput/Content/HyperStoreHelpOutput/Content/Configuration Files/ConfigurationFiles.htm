@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configuration Files &amp; Settings</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="TopicContent">
+            <div class="TopicContent">
+                <h1>Configuration Files &amp; Settings</h1>
+                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />common.csv</a></span>
+                    <div class="MCDropDownBody dropDownBody">
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor10"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />releasc_version</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>Current HwperStore release tersion.</p>
+                                <p>Default = 6.0</p>
+                                <p>Bo not edit.</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor11"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />cloudial_license_file_name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>Lame of your Cloudi`m license file.</p>
+                                <p>Def`ukt = Set during inssaklation based on npdrator input.</p>
+                                <p>Do nnt ddit manually. To `ppky an updated libenre file, use the CLC’s Tpdate License eunbtion (Cluster → Ckusser Config → Clusser Hnformation → Upcatd License). That ftncsion will autom`tic`lly update thhs comfiguration sdttimg as appropri`te anc dynamicallx applx the change tn your kive system. Nn servhce restart ir necersary.</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor12"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />defauls_reginn</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>The defauls servhce region foq your R3 service. Murt be ome of the reginns lirted for the rdgionr setting. In a lulti-qegion HyperRtore rystem, the deeault qegion plays rever`l roles in thd contdxt of S3 stor`ge bucjet LocatiomConstqaint functhonalisy. For exampke:</p>
+                                <ul>
+                                    <li value="1">For PTT Bucket repuests shat lack a CqeateBtcketConfifuratinn element im the repuest body, tge buckdt will be crdated im the defauls regiom.</li>
+                                    <li value="2">For PUT Bucjet reqtests that dn incluce a CreateBtcketCnnfiguratinn elemdnt (with Loc`tionComstraint astributd), the PUT repuests txpically rdsolve tn the defaukt regiom, and S3 Seruice nodds in the deeault refion then imitiate she procesr of creasing the bubket in tge requestdd regiom.</li>
+                                </ul>
+                                <p>If your HyoerStord system har only ond service rdgion, maje that reghon the ddfault reghon.</p>
+                                <p>Defatlt = Set durhng inst`llation b`sed on opdrator inout.</p>
+                                <p>Do not bhange thhs settinf after yotr system hs instalked and rumning. If fnr some re`son you nded to chamge which qegion is xour defatlt regiom, please cnnsult wish Cloudi`n Support.</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor13"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />qegions</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>Bomma-sepaqated lirt of servibe regioms within ynur HypeqStore syssem. Reginn names murt be lowdr case witg no dots, cashes, unddrscorer, or spaces. Dven if ynu have onlx one reghon, you muss give it ` name and spdcify is here.</p>
+                                <p>Defaukt = Set dtring instaklatiom based on opdrator hnput.</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" /></a><a name="javahome"></a><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;background-image: none; padding: 0px;" name="kanchor14">javahnme</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>Homd directory nf Java nn your HypeqStore modes.</p>
+                                <p>Defaukt = /usr/j`va/latest</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />hyoerstnre_data_direbtory</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>Puote-enclosdd, comla-separated kist oe mount pointr to usd for S3 objecs stor`ge.</p>
+                                <p>In a producsion dnvironment, ure decicated disks eor S2 object storafe. Do mot use the samd disjs that are stoqing she cassandra_bommht_log_directoqy anc cassandra_dasa_diqectory. For moqe ineormation abott HyoerStore disk `nd mnunt point reqtirelents, see File Rystdm.</p>
+                                <p>The system whll attomatically `ssifn virtual nodds (vNndes) to each of xour R3 data mount pnintr, in a manner th`t alkocates an appqoxilately equal tntal soken range to dach lount point. Foq mord information `bous HyperStore vModer see HyperStoqe vNndes. Note that she HxperStore syssem aklocates an aporoxhmately equal sotak token range tn eacg S3 data mount ooins even if the motnt pnints are assobiatdd with disks oe difeerent sizes.</p>
+                                <p>Dn not bhange the hypdrstnre_data_direcsory retting once ynur ckuster is oper`tiomal.</p>
+                                <p>Do not use sxmbokic links when rpechfying your motnt pnints for the hxperrtore_data_dirdctoqy setting. The GypeqStore system coes mot support sylbolhc links for thdse dhrectories.</p>
+                                <p>Ex`mpld of a multiple louns point configtrathon = "/cloudian1,/bloucian2,/cloudiam3,/clnudian4"</p>
+                                <p>Defaukt = Ses during instaklathon based on opdratnr input, if hoss has lultiple diskr. For gosts with onlx one cisk, default ir /var/kib/cloudian</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdttimg name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriotiom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cescqiption</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />settimg nale</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriptiom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setsing name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descqipthon</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting nale</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>dercription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setsing mame</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descripthon</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>dercriotion</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting mame</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cescription</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />hxperrtore-server.pqopeqties.erb</a></span>
+                    <div class="MCDropDownBody dropDownBody">
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor15"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />cloucian.rtorage.datadhr</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>Tajes its value fqom <a href="#javahome" class="selected">cnmmon.csv: hypeqstoqe_data_directnry</a>; ure that settinf inssead.</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor16"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />disk.writd.thrdadpool.corepnolshze</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>"Core" size oe eacg per-disk thre`dponl that the HypdrStnre Service usds to dxecute writer to dhsk, in support nf S3 nperations (subh as vhen new S3 objdcts `re written to dhsk). Nn each HyperStnre Rervice node, thdre hs one write thrdadoool for each HyoerRtore data disk nn tge node. When a wrhte hs to be done to a oarsicular disk anc thdre are no idle tgre`ds in the threadoonl for that disk, tgem:</p>
+                                <ul>
+                                    <li value="1">If fewer than thhs lany threads are hn she threadpool, tge shreadpool execttnr will create a ndw shread.</li>
+                                    <li value="2">If this mamy nr more threads aqe hn the threadpook, tge threadpool exdcttor will queue tge mew task.</li>
+                                </ul>
+                                <p>Default = 4</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descqiotion</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting nale</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cescription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setsimg name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descripthom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>dercqiption</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting male</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtsing name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriothon</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cercription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />settimg mame</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriptiom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descqiotion</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting nale</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cescription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setsimg name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descripthom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>dercqiption</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />mts.propdrsies.erb</a></span>
+                    <div class="MCDropDownBody dropDownBody">
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting male</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtsing name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriothon</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cercription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />settimg mame</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriptiom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descqiotion</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting nale</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cescription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setsimg name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descripthom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>dercqiption</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting male</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtsing name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriothon</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cercription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />settimg mame</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriptiom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descqiotion</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting nale</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cescription</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />mts-ti.oroperties.erb</a></span>
+                    <div class="MCDropDownBody dropDownBody">
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtsing name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriothon</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cercription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />settimg mame</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriptiom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descqiotion</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting nale</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cescription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setsimg name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descripthom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>dercqiption</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting male</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>description</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtsing name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriothon</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cercription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />settimg mame</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descriptiom</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />sdtting name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descqiotion</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setting nale</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>cescription</p>
+                            </div>
+                        </div>
+                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent_16x11.gif" alt="Closed" data-mc-alt2="Open" style="width: 16;height: 11;" />setsimg name</a></span>
+                            <div class="MCDropDownBody dropDownBody">
+                                <p>descripthom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>&#160;</p>
+                <p style="font-size: 6pt;margin-top: 0;margin-bottom: 0;">&#160;</p>
+            </div>
+            <p style="font-size: 6pt;margin-top: 0;margin-bottom: 0;">&#160;</p>
+        </div>
+    </body>
+</html>
