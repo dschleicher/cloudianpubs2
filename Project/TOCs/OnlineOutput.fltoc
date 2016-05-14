@@ -46,9 +46,34 @@
       Link="/Content/Admin API/CommonStatusCodes.htm"></TocEntry>
   </TocEntry>
   <TocEntry
-    Title="Configuration Files">
+    Title="Operations">
     <TocEntry
-      Title="Configuration Files &amp; Settings"
-      Link="/Content/Configuration Files/ConfigurationFiles.htm" />
+      Title="Operations 1"
+      Link="/Content/Operations/Operations1.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="S3 API Compliance">
+    <TocEntry
+      Title="S3 Compliance 1"
+      Link="/Content/S3 API Compliance/S3Compliance1.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Installation">
+    <TocEntry
+      Title="Installation 1"
+      Link="/Content/Installation/Installation1.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="System Configuration">
+    <TocEntry
+      Title="CMC's Configuration Settings Page" />
+    <TocEntry
+      Title="Configuration Files">
+      <TocEntry
+        Title="Configuration Files &amp; Settings"
+        Link="/Content/System Configuration/Configuration Files/ConfigurationFiles.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Installer's Advanced Configuration Options" />
   </TocEntry>
 </CatapultToc>
