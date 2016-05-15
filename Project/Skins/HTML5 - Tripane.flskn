@@ -11,11 +11,12 @@
   Bottom="0"
   Right="0"
   Tabs="TOC,Index,Glossary"
-  DefaultTab="TOC"
+  DefaultTab="Index"
   UseBrowserDefaultSize="True"
   UseDefaultBrowserSetup="True"
   RemoveImagesOnSave="true"
-  EnableResponsiveOutput="true">
+  EnableResponsiveOutput="true"
+  NavigationLinkTop="true">
   <Stylesheet>
     <Styles>
       <Style
@@ -1130,6 +1131,20 @@
                 </Properties>
               </StyleClass>
             </Classes>
+          </Style>
+          <Style
+            Name="Index Search Input">
+            <Properties>
+              <Property
+                Name="Placeholder">Enter search terms</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Glossary Search Input">
+            <Properties>
+              <Property
+                Name="Placeholder">Enter glossary search terms</Property>
+            </Properties>
           </Style>
         </Styles>
         <Resources>
