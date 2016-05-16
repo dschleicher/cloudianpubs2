@@ -18,6 +18,73 @@
       Link="/Content/Major Features/ServiceRegions.htm" />
   </TocEntry>
   <TocEntry
+    Title="CMC Interface">
+    <TocEntry
+      Title="Cluster">
+      <TocEntry
+        Title="Configuration Settings"
+        Link="/Content/CMC Interface/Cluster/ConfigurationSettings.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Users &amp; Groups">
+      <TocEntry
+        Title="Add a User"
+        Link="/Content/CMC Interface/Users &amp; Groups/AddUser.htm" />
+      <TocEntry
+        Title="Feature 2"
+        Link="/Content/CMC Interface/Users &amp; Groups/Feature2.htm" />
+      <TocEntry
+        Title="Feature 3"
+        Link="/Content/CMC Interface/Users &amp; Groups/Feature3.htm" />
+      <TocEntry
+        Title="Features"
+        Link="/Content/CMC Interface/Users &amp; Groups/Features.htm" />
+      <TocEntry
+        Title="Manage Groups"
+        Link="/Content/CMC Interface/Users &amp; Groups/ManageGroups.htm" />
+      <TocEntry
+        Title="HyperStore Help"
+        Link="/Content/CMC Interface/Users &amp; Groups/ManageUsers.htm" />
+      <TocEntry
+        Title="Manage Users (Alt)"
+        Link="/Content/CMC Interface/Users &amp; Groups/ManageUsers2.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Operations">
+    <TocEntry
+      Title="Operations 1"
+      Link="/Content/Operations/Operations1.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Commands">
+    <TocEntry
+      Title="hsstool">
+      <TocEntry
+        Title="hsstool ring Command"
+        Link="/Content/Commands/hsstool/hsstool-ring.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Redis Monitor">
+      <TocEntry
+        Title="HyperStore Help"
+        Link="/Content/Commands/Redis Monitor/redismon-getcluster.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="System Configuration">
+    <TocEntry
+      Title="CMC's Configuration Settings Page" />
+    <TocEntry
+      Title="Configuration Files">
+      <TocEntry
+        Title="Configuration Files &amp; Settings"
+        Link="/Content/System Configuration/Configuration Files/ConfigurationFiles.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Installer's Advanced Configuration Options" />
+  </TocEntry>
+  <TocEntry
     Title="Admin API">
     <TocEntry
       Title="User Management">
@@ -36,28 +103,9 @@
       Link="/Content/Admin API/CommonStatusCodes.htm"></TocEntry>
   </TocEntry>
   <TocEntry
-    Title="Operations">
-    <TocEntry
-      Title="Operations 1"
-      Link="/Content/Operations/Operations1.htm" />
-  </TocEntry>
-  <TocEntry
     Title="S3 API Compliance">
     <TocEntry
       Title="S3 Compliance 1"
       Link="/Content/S3 API Compliance/S3Compliance1.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="System Configuration">
-    <TocEntry
-      Title="CMC's Configuration Settings Page" />
-    <TocEntry
-      Title="Configuration Files">
-      <TocEntry
-        Title="Configuration Files &amp; Settings"
-        Link="/Content/System Configuration/Configuration Files/ConfigurationFiles.htm" />
-    </TocEntry>
-    <TocEntry
-      Title="Installer's Advanced Configuration Options" />
   </TocEntry>
 </CatapultToc>

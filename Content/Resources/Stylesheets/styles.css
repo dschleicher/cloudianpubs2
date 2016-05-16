@@ -145,6 +145,18 @@ a
 	color: #c1d62f;
 }
 
+MadCap|dropDown
+{
+	mc-closed-image: url('../Images/IconDropDownClosed.png');
+	mc-open-image: url('../Images/IconDropDownOpen.png');
+}
+
+MadCap|expanding
+{
+	mc-closed-image: url('../Images/IconDropDownClosed.png');
+	mc-open-image: url('../Images/IconDropDownOpen.png');
+}
+
 @media print
 {
 	body

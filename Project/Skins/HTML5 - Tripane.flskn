@@ -600,8 +600,8 @@
     <Stylesheet></Stylesheet>
   </Stylesheet>
   <Toolbar
-    EnableCustomLayout="false"
-    Buttons="Print|ExpandAll|RemoveHighlight|Separator|TopicRatings|Separator|EditUserProfile|Filler|PreviousTopic|CurrentTopicIndex|NextTopic" />
+    EnableCustomLayout="true"
+    Buttons="Print|ExpandAll|Separator|TopicRatings|Separator|EditUserProfile|Filler|PreviousTopic|CurrentTopicIndex|NextTopic|SelectLanguage" />
   <Strings>
     <Stylesheet
       lang="en-us">
