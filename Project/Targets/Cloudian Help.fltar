@@ -19,4 +19,8 @@
     <Destination
       Link="/Project/Destinations/Github cloudianpubs2.fldes" />
   </Destinations>
+  <Variables>
+    <Variable
+      Name="General/VersionNumber">6.1</Variable>
+  </Variables>
 </CatapultTarget>

@@ -16,7 +16,7 @@
   UseDefaultBrowserSetup="True"
   RemoveImagesOnSave="true"
   EnableResponsiveOutput="true"
-  NavigationLinkTop="true">
+  NavigationLinkTop="false">
   <Stylesheet>
     <Styles>
       <Style
@@ -356,23 +356,23 @@
             Name="TOC">
             <Properties>
               <Property
-                Name="Width">90px</Property>
+                Name="Width">85px</Property>
             </Properties>
           </StyleClass>
           <StyleClass
             Name="Index">
             <Properties>
               <Property
-                Name="Width">70px</Property>
-              <Property
                 Name="Label">Search</Property>
+              <Property
+                Name="Width">85px</Property>
             </Properties>
           </StyleClass>
           <StyleClass
             Name="Glossary">
             <Properties>
               <Property
-                Name="Width">90px</Property>
+                Name="Width">80px</Property>
             </Properties>
           </StyleClass>
         </Classes>
