@@ -17,15 +17,15 @@
     Title="Users &amp; Groups">
     <TocEntry
       Title="Manage Groups"
-      Link="/Content/Users &amp; Groups/ManageGroups.htm" />
+      Link="/Content/CMC Interface/Users &amp; Groups/ManageGroups.htm" />
     <TocEntry
       Title="Manage Users"
-      Link="/Content/Users &amp; Groups/ManageUsers.htm"></TocEntry>
+      Link="/Content/CMC Interface/Users &amp; Groups/ManageUsers.htm"></TocEntry>
   </TocEntry>
   <TocEntry
     Title="Cluster">
     <TocEntry
       Title="Configuration Settings"
-      Link="/Content/Cluster/ConfigurationSettings.htm" />
+      Link="/Content/CMC Interface/Cluster/ConfigurationSettings.htm" />
   </TocEntry>
 </CatapultToc>

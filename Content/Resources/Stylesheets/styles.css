@@ -140,6 +140,11 @@ td
 	line-height: 16px;
 }
 
+a
+{
+	color: #c1d62f;
+}
+
 @media print
 {
 	body

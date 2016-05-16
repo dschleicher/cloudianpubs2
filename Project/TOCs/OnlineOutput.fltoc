@@ -3,29 +3,19 @@
   Version="1"
   conditions="">
   <TocEntry
-    Title="Welcome"
-    Link="/Content/A_Introduction Topics/Welcome.htm" />
-  <TocEntry
-    Title="Users &amp; Groups"
-    Link="/Content/Users &amp; Groups/Feature2.htm">
+    Title="Introduction">
     <TocEntry
-      Title="Manage Users"
-      Link="/Content/Users &amp; Groups/ManageUsers.htm"></TocEntry>
+      Title="Welcome"
+      Link="/Content/Introduction/Welcome.htm" />
     <TocEntry
-      Title="Manage Users (Alt)"
-      Link="/Content/Users &amp; Groups/ManageUsers2.htm" />
-    <TocEntry
-      Title="Add a User"
-      Link="/Content/Users &amp; Groups/AddUser.htm" />
+      Title="What's New"
+      Link="/Content/Introduction/WhatsNew.htm" />
   </TocEntry>
   <TocEntry
-    Title="Cluster">
+    Title="Major Features">
     <TocEntry
-      Title="Cluster Config">
-      <TocEntry
-        Title="Configuration Settings"
-        Link="/Content/Cluster/ConfigurationSettings.htm" />
-    </TocEntry>
+      Title="HyperStore Help"
+      Link="/Content/Major Features/ServiceRegions.htm" />
   </TocEntry>
   <TocEntry
     Title="Admin API">
@@ -56,12 +46,6 @@
     <TocEntry
       Title="S3 Compliance 1"
       Link="/Content/S3 API Compliance/S3Compliance1.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="Installation">
-    <TocEntry
-      Title="Installation 1"
-      Link="/Content/Installation/Installation1.htm" />
   </TocEntry>
   <TocEntry
     Title="System Configuration">

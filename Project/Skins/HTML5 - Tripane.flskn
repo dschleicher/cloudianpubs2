@@ -548,6 +548,10 @@
           </StyleClass>
         </Classes>
       </Style>
+      <Style
+        Name="Navigation Link">
+        <Properties></Properties>
+      </Style>
     </Styles>
     <Resources>
       <Resource
