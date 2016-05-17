@@ -3,7 +3,8 @@
   Version="1"
   conditions="">
   <TocEntry
-    Title="Introduction">
+    Title="Introduction"
+    Link="/Content/Introduction/introIntro.htm">
     <TocEntry
       Title="Welcome"
       Link="/Content/Introduction/Welcome.htm" />
@@ -12,7 +13,8 @@
       Link="/Content/Introduction/WhatsNew.htm" />
   </TocEntry>
   <TocEntry
-    Title="Major Features">
+    Title="Major Features"
+    Link="/Content/Major Features/ServiceRegions.htm">
     <TocEntry
       Title="HyperStore Help"
       Link="/Content/Major Features/ServiceRegions.htm" />

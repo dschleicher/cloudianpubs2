@@ -1140,14 +1140,14 @@
             Name="Index Search Input">
             <Properties>
               <Property
-                Name="Placeholder">Enter search terms</Property>
+                Name="Placeholder">Enter search term</Property>
             </Properties>
           </Style>
           <Style
             Name="Glossary Search Input">
             <Properties>
               <Property
-                Name="Placeholder">Enter glossary search terms</Property>
+                Name="Placeholder">Enter glossary search term</Property>
             </Properties>
           </Style>
         </Styles>
