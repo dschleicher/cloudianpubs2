@@ -13,6 +13,12 @@
       Link="/Content/Introduction/WhatsNew.htm" />
   </TocEntry>
   <TocEntry
+    Title="Installation">
+    <TocEntry
+      Title="Installation 1"
+      Link="/Content/Installation/Installation1.htm" />
+  </TocEntry>
+  <TocEntry
     Title="Major Features"
     Link="/Content/Major Features/ServiceRegions.htm">
     <TocEntry
@@ -76,7 +82,8 @@
   <TocEntry
     Title="System Configuration">
     <TocEntry
-      Title="CMC's Configuration Settings Page" />
+      Title="CMC's Configuration Settings Page"
+      Link="/Content/CMC Interface/Cluster/ConfigurationSettings.htm" />
     <TocEntry
       Title="Configuration Files">
       <TocEntry

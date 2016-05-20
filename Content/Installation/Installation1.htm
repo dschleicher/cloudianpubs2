@@ -1,10 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="129" MadCap:lastWidth="568">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="654" MadCap:lastWidth="938">
     <head>
     </head>
     <body>
         <h1>
             <MadCap:keyword term="Installation;Installing HyperStore" />Installation 1</h1>
         <p>Delete this text and replace it with your own content.</p>
+        <ol>
+            <li>
+                <p>Choose one of your HyperStore hosts to be the Puppet master node, from which you will manage the installation and ongoing cluster configuration.</p>
+            </li>
+        </ol>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><span style="color: #949a9e;">See more detail on this step</span>.</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The Puppet master node is the node on which you will run the HyperStore install script, which uses the open source version of Puppet to propagate initial configuration settings to the member nodes in your HyperStore cluster. This will also be the node from which you use Puppet for ongoing, centralized configuration management of your HyperStore cluster. The HyperStore system is designed to utilize Puppet for cluster configuration management, and the system is packaged and installed in a way that enables you to use Puppet from the outset, without doing any explicit set-up of Puppet. (For more information on using Puppet for ongoing cluster configuration management, see HyperStore Configuration in your Cloudian HyperStore Administrator’s Guide.)</p>
+                <p><b>HyperStore does not support using a stand-alone Puppet master node</b>. The Puppet master node must be one of the nodes on which you will install and run HyperStore.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <ol MadCap:continue="true">
+            <li>On the Puppet master node, log in as root and create an installation staging directory (such as <code>/home/CloudianPackages</code>).</li>
+        </ol>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><span style="color: #949a9e;">See more detail on this step</span>.</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>On the node that you’ve selected to be your Puppet master node, log in as root and create a staging directory from which to run the HyperStore installation. Then change into the staging directory. For example:</p><pre xml:space="preserve">root# mkdir /home/CloudianPackages
+root# cd /home/CloudianPackages</pre>
+                <p>For a HyperStore appliance install, the installation directory has already been created for you: /root/CloudianPackages. Change into that directory.</p>
+                <p>The staging directory on your Puppet master node must be kept intact throughout the life of your HyperStore service. The Cloudian Management Console will invoke scripts in this staging directory when you use the Console to perform certain system operations.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>
