@@ -14,7 +14,8 @@
   GenerateWebSafeImages="true"
   WebSafeFileExtension="png"
   MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp"
-  Skin="/Project/Skins/HTML5 - Tripane.flskn">
+  Skin="/Project/Skins/HTML5 - Tripane.flskn"
+  OutputFile="HyperStoreHelp.htm">
   <Destinations>
     <Destination
       Link="/Project/Destinations/Github cloudianpubs2.fldes" />

@@ -309,3 +309,21 @@ MadCap|expanding
 	}
 }
 
+MadCap|dropDownHead.StyleTestClass	/*Just testing creating a style*/
+{
+	color: #8f959a;
+}
+
+MadCap|dropDownHead.StyleTest2	/*Test style for parent drop-downs*/
+{
+	color: #c3d600;
+	font-size: 12pt;
+}
+
+img.ImgCloudian
+{
+	mc-thumbnail: popup;
+	mc-thumbnail-max-height: 60px;
+	mc-float: center;
+}
+
