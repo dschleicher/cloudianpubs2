@@ -4,7 +4,7 @@
   Comment="HTML5 Output"
   Type="WebHelp2"
   Destinations=""
-  GlossaryTermConversion="marked"
+  GlossaryTermConversion="all"
   DefaultUrl="/Content/Introduction/Welcome.htm"
   MasterToc="/Project/TOCs/OnlineOutput.fltoc"
   ConditionTagExpression="include[General.Online] exclude[General.PDF] "
@@ -18,7 +18,7 @@
   OutputFile="HyperStoreHelp.htm">
   <Destinations>
     <Destination
-      Link="/Project/Destinations/Github cloudianpubs2.fldes" />
+      Link="/Project/Destinations/Github.fldes" />
   </Destinations>
   <Variables>
     <Variable

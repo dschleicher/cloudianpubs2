@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlossary
   conditions="">
   <GlossaryEntry
@@ -26,5 +26,38 @@
     </Terms>
     <Definition
       Link="">Definition for Term 2.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term0"
+    TermClass="Popup"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>virtual node</Term>
+    </Terms>
+    <Definition
+      Link="">This is the description of a virtual node.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term1"
+    TermClass="Popup"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>cluster</Term>
+    </Terms>
+    <Definition
+      Link="">This is the definition of a HyperStore "cluster".</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term2"
+    Stem="True"
+    IgnoreCase="true"
+    TermClass="Popup">
+    <Terms>
+      <Term>region</Term>
+    </Terms>
+    <Definition
+      Link="">This is the definition of a HyperStore "region"</Definition>
   </GlossaryEntry>
 </CatapultGlossary>
