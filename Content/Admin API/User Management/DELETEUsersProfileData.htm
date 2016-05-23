@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1549" MadCap:lastWidth="846">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1390" MadCap:lastWidth="860">
     <head>
     </head>
     <body>
         <h1>DELETE User’s Profile Data</h1>
         <p>After deleting a user, you can use this method if you want to purge a deleted user’s profile information from the Cassandra database. Otherwise, the deleted user’s profile information is retained in Cassandra indefinitely.</p>
+        <p>There are many HyperStore virtual nodes per physical node. The default is 32 vNodes per host.</p>
         <p>IMPORTANT: After you purge a deleted user’s profile information from Cassandra, you will no longer be able to retrieve that user’s profile information via the GET /user/list method. This means that you will no longer be able to retrieve the deleted user’s canonical user ID (which is part of the UserInfo object that’s returned in response to GET /user/list). Without a deleted user’s canonical user ID, you will not be able to retrieve usage history for the user. Consequently, you should purge a deleted user’s profile information only if:</p>
         <p>You have some independent record of the user’s canonical user ID (outside of the Cassandra database).</p>
         <p>OR</p>
