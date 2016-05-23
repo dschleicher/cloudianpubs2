@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="HyperStoreHelp.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Installation">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Installation 1</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="TopicContent">
+            <h1><a name="kanchor2"></a>Installation 1</h1>
+            <p>Delete this text and replace it with your own content.</p>
+            <ol>
+                <li value="1">
+                    <p>Choose one of your HyperStore hosts to be the Puppet master node, from which you will manage the installation and ongoing <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">cluster<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "cluster".</span></a> configuration.</p>
+                </li>
+            </ol>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" /><span style="color: #949a9e;">See more detail on this step</span>.</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p>The Puppet master node is the node on which you will run the HyperStore install script, which uses the open source version of Puppet to propagate initial configuration settings to the member nodes in your HyperStore <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">cluster<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "cluster".</span></a>. This will also be the node from which you use Puppet for ongoing, centralized configuration management of your HyperStore <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">cluster<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "cluster".</span></a>. The HyperStore system is designed to utilize Puppet for <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">cluster<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "cluster".</span></a> configuration management, and the system is packaged and installed in a way that enables you to use Puppet from the outset, without doing any explicit set-up of Puppet. (For more information on using Puppet for ongoing <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">cluster<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "cluster".</span></a> configuration management, see HyperStore Configuration in your Cloudian HyperStore Administrator’s Guide.)</p>
+                    <p><b>HyperStore does not support using a stand-alone Puppet master node</b>. The Puppet master node must be one of the nodes on which you will install and run HyperStore.</p>
+                </div>
+            </div>
+            <ol data-mc-continue="true">
+                <li value="2">On the Puppet master node, log in as root and create an installation staging directory (such as <code>/home/CloudianPackages</code>).</li>
+            </ol>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" /><span style="color: #949a9e;">See more detail on this step</span>.</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p>On the node that you’ve selected to be your Puppet master node, log in as root and create a staging directory from which to run the HyperStore installation. Then change into the staging directory. For example:</p><pre xml:space="preserve">root# mkdir /home/CloudianPackages
+root# cd /home/CloudianPackages</pre>
+                    <p>For a HyperStore appliance install, the installation directory has already been created for you: /root/CloudianPackages. Change into that directory.</p>
+                    <p>The staging directory on your Puppet master node must be kept intact throughout the life of your HyperStore service. The Cloudian Management Console will invoke scripts in this staging directory when you use the Console to perform certain system operations.</p>
+                </div>
+            </div>
+            <p style="font-size: 6pt;margin-top: 0;margin-bottom: 0;">&#160;</p>
+        </div>
+    </body>
+</html>

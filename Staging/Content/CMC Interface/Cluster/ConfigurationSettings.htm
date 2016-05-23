@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="HyperStoreHelp.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="System Configuration">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configuration Settings</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="TopicContent">
+            <h1>Configuration Settings</h1>
+            <p>When you edit and Save settings in the CMC’s <b>Configuration Settings</b> page the system applies your configuration changes dynamically — no service restart is required. At the same time, the system automatically updates the corresponding configuration file settings on the Puppet master node and triggers a Puppet sync-up so that the configuration file changes propagate to all your HyperStore nodes. This makes it so that your configuration changes persist across any future restarts of HyperStore services.</p>
+            <h2>Setting Descriptions</h2>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;" name="kanchor3"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />SMTP/Email Settings for Alerts/Notifications</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />SMTP Server FQDN</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>Fully qualified domain name (FQDN) of the SMTP service that the HyperStore system should utilize for sending alert notification emails to system administrators. </p>
+                            <p>Default = smtp.notification.configure.me</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor4"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />SMTP Protocol</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>Protocol to use when sending alert notification emails. Options are smtp or smtps.</p>
+                            <p>The HyperStore system uses the default SMTP ports (25 for smtp or 465 for smtps). If you want to use non-default SMTP ports, consult with Cloudian Support.</p>
+                            <p>Default = smtps</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor5"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />SMTP From Address</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>The "From" address to use when sending alert notification emails.</p>
+                            <p>Default = noreply@smtp.notification.configure.me</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Notification Message Subject Header</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>The "Subject" to use when sending alert notification emails.</p>
+                            <p>Default = Cloudian HyperStore Notification Alert</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;" name="kanchor6"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />SNMP Trap Destination Settings</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor7"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Destination IP Address</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>IP address of the SNMP manager to which the CMC will send system alerts (for alert types for which you’ve enabled SNMP trap sending).</p>
+                            <p>Default = none</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Destination Port</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>Listening port used by the SNMP manager.</p>
+                            <p>Default = 162</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Section</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Section</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size: 6pt;margin-top: 0;margin-bottom: 0;">&#160;</p>
+        </div>
+    </body>
+</html>

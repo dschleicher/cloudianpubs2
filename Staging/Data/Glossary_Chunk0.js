@@ -1,0 +1,1 @@
+define({'cluster':{d:'This is the definition of a HyperStore \"cluster\".',l:''},'region':{d:'This is the definition of a HyperStore \"region\"',l:''},'Term 1':{d:'Definition for Term 1.',l:''},'Term 2':{d:'Definition for Term 2.',l:''},'Term 3':{d:'Definition for Term 3.',l:''},'virtual node':{d:'This is the description of a virtual node.',l:''}});

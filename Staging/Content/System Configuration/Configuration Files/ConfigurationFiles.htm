@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="HyperStoreHelp.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="System Configuration|Configuration Files">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configuration Files &amp; Settings</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="TopicContent">
+            <h1>Configuration Files &amp; Settings</h1>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />common.csv</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor13"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />release_version</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>Current HyperStore release version. this is a test of editing and committing.</p>
+                            <p>Default = 6.0</p>
+                            <p>Do not edit.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor14"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />cloudian_license_file_name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>Name of your Cloudian license file.</p>
+                            <p>Default = Set during installation based on operator input.</p>
+                            <p>Do not edit manually. To apply an updated license file, use the CMC’s Update License function (<a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">Cluster<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "cluster".</span></a> → <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">Cluster<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "cluster".</span></a> Config → <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">Cluster<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "cluster".</span></a> Information → Update License). That function will automatically update this configuration setting as appropriate and dynamically apply the change to your live system. No service restart is necessary.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor15"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />default_region</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>The default service <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> for your S3 service. Must be one of the <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">regions<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> listed for the <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">regions<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> setting. In a multi-<a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> HyperStore system, the default <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> plays several roles in the context of S3 storage bucket LocationConstraint functionality. For example:</p>
+                            <ul>
+                                <li value="1">For PUT Bucket requests that lack a CreateBucketConfiguration element in the request body, the bucket will be created in the default <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a>.</li>
+                                <li value="2">For PUT Bucket requests that do include a CreateBucketConfiguration element (with LocationConstraint attribute), the PUT requests typically resolve to the default <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a>, and S3 Service nodes in the default <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> then initiate the process of creating the bucket in the requested <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a>.</li>
+                            </ul>
+                            <p>If your HyperStore system has only one service <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a>, make that <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> the default <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a>.</p>
+                            <p>Default = Set during installation based on operator input.</p>
+                            <p>Do not change this setting after your system is installed and running. If for some reason you need to change which <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> is your default <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a>, please consult with Cloudian Support.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor16"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />regions</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>Comma-separated list of service <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">regions<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> within your HyperStore system. <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">Region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a> names must be lower case with no dots, dashes, underscores, or spaces. Even if you have only one <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">region<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "region"</span></a>, you must give it a name and specify it here.</p>
+                            <p>Default = Set during installation based on operator input.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" /></a><a name="javahome"></a><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;background-image: none; padding: 0px;" name="kanchor17">javahome</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>Home directory of Java on your HyperStore nodes.</p>
+                            <p>Default = /usr/java/latest</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />hyperstore_data_directory</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>Quote-enclosed, comma-separated list of mount points to use for S3 object storage.</p>
+                            <p>In a production environment, use dedicated disks for S3 object storage. Do not use the same disks that are storing the cassandra_commit_log_directory and cassandra_data_directory. For more information about HyperStore disk and mount point requirements, see File System.</p>
+                            <p>The system will automatically assign <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">virtual nodes<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the description of a virtual node.</span></a> (vNodes) to each of your S3 data mount points, in a manner that allocates an approximately equal total token range to each mount point. For more information about HyperStore vNodes see HyperStore vNodes. Note that the HyperStore system allocates an approximately equal total token range to each S3 data mount point even if the mount points are associated with disks of different sizes.</p>
+                            <p>Do not change the hyperstore_data_directory setting once your <a href="javascript:void(0);" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup #text #textPopup">cluster<span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"></span>This is the definition of a HyperStore "cluster".</span></a> is operational.</p>
+                            <p>Do not use symbolic links when specifying your mount points for the hyperstore_data_directory setting. The HyperStore system does not support symbolic links for these directories.</p>
+                            <p>Example of a multiple mount point configuration = "/cloudian1,/cloudian2,/cloudian3,/cloudian4"</p>
+                            <p>Default = Set during installation based on operator input, if host has multiple disks. For hosts with only one disk, default is /var/lib/cloudian</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />hyperstore-server.properties.erb</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor18"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />cloudian.storage.datadir</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>Takes its value from <a href="#javahome">common.csv: hyperstore_data_directory</a>; use that setting instead.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;" name="kanchor19"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />disk.write.threadpool.corepoolsize</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>"Core" size of each per-disk threadpool that the HyperStore Service uses to execute writes to disk, in support of S3 operations (such as when new S3 objects are written to disk). On each HyperStore Service node, there is one write threadpool for each HyperStore data disk on the node. When a write is to be done to a particular disk and there are no idle threads in the threadpool for that disk, then:</p>
+                            <ul>
+                                <li value="1">If fewer than this many threads are in the threadpool, the threadpool executor will create a new thread.</li>
+                                <li value="2">If this many or more threads are in the threadpool, the threadpool executor will queue the new task.</li>
+                            </ul>
+                            <p>Default = 5</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />mts.properties.erb</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #c1d62f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />mts-ui.properties.erb</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" style="color: #949a9f;"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />setting name</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>&#160;</p>
+            <p style="font-size: 6pt;margin-top: 0;margin-bottom: 0;">&#160;</p>
+        </div>
+    </body>
+</html>
